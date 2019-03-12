@@ -1,0 +1,91 @@
+<!-- BEGIN (write your solution here) -->
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/style.css">
+      <title>Мое резме</title>
+      <script src="lib/script.js"></script>
+       <style>
+         body {
+  font-family: Georgia;
+  font-size: 16px;
+  margin: 0 auto;   /* center content */
+  max-width: 800px; /* limit width */
+  line-height: 1.5;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* BEGIN (write your solution here) */
+p{
+    margin-bottom:12px; 
+}
+ h1 {
+    font-weight: 400;
+    font-family: Georgia;
+    font-size:36px;
+    margin-bottom:0px;
+ }
+ h2 {
+    font-weight: 400;
+    font-family: Georgia;
+    font-size:32px;
+     border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: grey;
+    margin-bottom:8px;
+ }
+ h3 {
+    font-weight: 400;
+    font-family: Georgia;
+    font-size:20px;
+    margin-bottom:0px;
+ }
+ #header{
+     margin-bottom:32px;
+     text-align: center;
+ 
+ }
+ #footer{
+padding-top: 64px;   
+ text-align: center;    
+ }
+ </style>
+  </head>
+  <body>
+      <div id="header">
+        <h1>Колос Анна</h1>
+        <h3>Веб-разработчик</h3>
+            <p><a href="mailto:mail.ru">mail.ru,</a><a href="http://htmlbook.ru">htmlbook.ru</a></p>
+    </div>
+      <div id="main">
+          <h2>Опыт работы</h2>
+          <ul>
+              <li> октябрь-декабрь 2018г. координатор проекта "Теплые клиенты", работа с ботом в вк</li>
+              <li> опыт работы в веб-разработке отсутствует</li>
+            </ul>
+            <h2>Образование</h2>
+            <ul>
+                <li>2013-2017г.г. "УрФУ",ИГУП, специальность Государственное и муниципальное управление</li>
+                <li>2019г. курсы по программированию JS Fontend</li>
+            </ul>
+            <h2>Другие на выки и увлечения</h2>
+            <ul>
+                <li>сноуборд</li>
+                <li>веду инстаграм и группу вк книжного магазина</li>
+            </ul>
+     </div>            
+     <div id="footer">
+         <h5>Колос Анна</h5>
+         <p><a href="mailto:kolos.a.e@mail.ru">Кронверкский пр.31,Санкт-Петербург.,Россия +79811488704 kolos.a.e@mail.ru</a></p> 
+     </div>     
+            
+
+        
+
+  </body>
+</html>
+
+
+<!-- END -->
